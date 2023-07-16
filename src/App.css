@@ -1,10 +1,7 @@
 h1 {
   font-family: lust-script, regular;
-  font-size: 10vw;
-  color: #f28e8e;
-  text-align: left;
-  margin-left: 10vw;
-  margin-top: 20vh;
+  font-size: 5vw;
+  text-align: center;
 }
 
 #play {
@@ -12,7 +9,8 @@ h1 {
   max-width: 20vw;
   margin-left: 40vw;
   margin-right: 40vw;
-  margin-top: 70vw;
+  margin-top: 82vw;
+  margin-bottom: 11vw;
   position: absolute;
   z-index: 3;
 }
@@ -26,9 +24,9 @@ h1 {
   max-width: 20vw;
   margin-left: 40vw;
   margin-right: 40vw;
-  margin-top: 5vw;
+  margin-top: 19vw;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 #happybday {
@@ -36,11 +34,26 @@ h1 {
   max-width: 60vw;
   margin-left: 20vw;
   margin-right: 20vw;
-  margin-top: 25vw;
+  margin-top: 37vw;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
-.App {
-  height: 95vh;
+#vines {
+  content: url("https://drive.google.com/uc?export=view&id=188jdPDINnULBEHMezm0MYCzm3oczzyYC");
+  max-width: 35vw;
+  margin-left: 33vw;
+  margin-right: 40vw;
+  margin-top: 11vw;
+  position: absolute;
+  z-index: 0;
+}
+
+#strawb {
+  content: url("https://drive.google.com/uc?export=view&id=1FTHbLFbrtjdtDv8y9AWFgLmT5OqNYuJj");
+  max-width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  position: absolute;
+  z-index: 0;
 }
