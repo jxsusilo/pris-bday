@@ -41,10 +41,9 @@ h1 {
 
 #vines {
   content: url("https://drive.google.com/uc?export=view&id=188jdPDINnULBEHMezm0MYCzm3oczzyYC");
-  max-width: 35vw;
-  margin-left: 33vw;
-  margin-right: 40vw;
-  margin-top: 11vw;
+  max-width: 90vw;
+  margin-left: 5vw;
+  margin-top: 2vh;
   position: absolute;
   z-index: 0;
 }
@@ -53,7 +52,16 @@ h1 {
   content: url("https://drive.google.com/uc?export=view&id=1FTHbLFbrtjdtDv8y9AWFgLmT5OqNYuJj");
   max-width: 60vw;
   margin-left: 20vw;
-  margin-right: 20vw;
+  margin-top: 50vh;
   position: absolute;
-  z-index: 0;
+  z-index: 2;
+}
+
+#player {
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-left: 25vw;
+  margin-top: 10vh;
+  position:absolute;
+  z-index: 1;
 }
